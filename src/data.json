@@ -1,0 +1,80 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["Hi", "Hello", "Bonjour", "Salut", "Hey"],
+      "responses": ["Hello! I'm Michael, the personal assistant of Islam Merzouk. How can I help you today?", "Bonjour! Je suis Michael, l'assistant personnel d'Islam Merzouk. Comment puis-je vous aider aujourd'hui?"]
+    },
+    {
+      "tag": "name",
+      "patterns": ["What's your name?", "Quel est ton nom?", "Who are you?", "Qui es-tu?"],
+      "responses": ["I'm Michael, the assistant of Islam Merzouk.", "Je suis Michael, l'assistant personnel d'Islam Merzouk."]
+    },
+    {
+      "tag": "about_islam",
+      "patterns": ["Tell me about Islam Merzouk", "Parle-moi d'Islam Merzouk", "Who is Islam Merzouk?", "C'est qui Islam Merzouk?"],
+      "responses": [
+        "Islam Merzouk is a dedicated computer science engineering student from Algeria, currently studying in Belgium at the University of Mons. He holds a Bachelor's degree in Computer Science from Algeria and has completed a Master 1 in Artificial Intelligence.",
+        "Islam Merzouk est un étudiant en ingénierie informatique originaire d'Algérie, actuellement en Belgique à l'Université de Mons. Il a obtenu une licence en informatique en Algérie et a complété un Master 1 en Intelligence Artificielle."
+      ]
+    },
+    {
+      "tag": "ai_projects",
+      "patterns": ["What projects does he do?", "Quels sont ses projets?", "Talk about his AI projects", "Parle de ses projets IA"],
+      "responses": [
+        "Islam enjoys creating intelligent models that help solve different problems. He focuses on AI-driven solutions and innovative applications.",
+        "Islam aime créer des modèles intelligents qui aident à résoudre différents problèmes. Il se concentre sur les solutions basées sur l'IA et les applications innovantes."
+      ]
+    },
+    {
+      "tag": "experience",
+      "patterns": ["Tell me about his experience", "Parle de son expérience", "What has he done professionally?", "Quels sont ses stages ou expériences?"],
+      "responses": [
+        "Islam completed an internship where he developed a website for a dental clinic, gaining practical web development experience.",
+        "Islam a effectué un stage où il a réalisé un site web pour une clinique dentaire, acquérant une expérience pratique en développement web."
+      ]
+    },
+    {
+      "tag": "sports",
+      "patterns": ["What sports does he like?", "Quels sports pratique-t-il?", "Talk about his sports", "Parle de ses sports"],
+      "responses": [
+        "He practices many sports, including kickboxing, street workout, volleyball, basketball, swimming, and has experience as a lifeguard in Algeria.",
+        "Il pratique de nombreux sports, comme le kickboxing, le street workout, le volley-ball, le basket-ball, la natation, et a été maître-nageur en Algérie."
+      ]
+    },
+    {
+      "tag": "personality",
+      "patterns": ["Describe his personality", "Comment est-il?", "Tell me about his personality", "Décris sa personnalité"],
+      "responses": [
+        "Islam is calm, dynamic, social, and friendly. He loves nature and has a balanced mix of focus and sociability.",
+        "Islam est calme, dynamique, sociable et aimable. Il aime la nature et combine concentration et sociabilité."
+      ]
+    },
+    {
+      "tag": "goals",
+      "patterns": ["What are his goals?", "Quels sont ses objectifs?", "Talk about his ambitions", "Parle de ses ambitions"],
+      "responses": [
+        "Islam aims to become an AI expert, develop innovative solutions, and have a real impact in the tech world.",
+        "Islam veut devenir un expert en IA, développer des solutions innovantes et avoir un impact réel dans le monde de la technologie."
+      ]
+    },
+    {
+      "tag": "age_country",
+      "patterns": ["How old is he?", "Quel âge a-t-il?", "Where is he from?", "D'où vient-il?"],
+      "responses": [
+        "He is 21 years old, from Algeria, and currently studying in Mons, Belgium.",
+        "Il a 21 ans, est originaire d'Algérie et poursuit actuellement ses études à Mons en Belgique."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "Merci", "Merci beaucoup"],
+      "responses": ["You're welcome!", "De rien!"]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "Goodbye", "Au revoir", "Salut"],
+      "responses": ["Goodbye! Have a great day!", "Au revoir! Passez une excellente journée!"]
+    }
+  ]
+}
