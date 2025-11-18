@@ -2,79 +2,122 @@
   "intents": [
     {
       "tag": "greeting",
-      "patterns": ["Hi", "Hello", "Bonjour", "Salut", "Hey"],
-      "responses": ["Hello! I'm Michael, the personal assistant of Islam Merzouk. How can I help you today?", "Bonjour! Je suis Michael, l'assistant personnel d'Islam Merzouk. Comment puis-je vous aider aujourd'hui?"]
-    },
-    {
-      "tag": "name",
-      "patterns": ["What's your name?", "Quel est ton nom?", "Who are you?", "Qui es-tu?"],
-      "responses": ["I'm Michael, the assistant of Islam Merzouk.", "Je suis Michael, l'assistant personnel d'Islam Merzouk."]
+      "patterns": ["Hi", "Hello", "Hey", "Salut", "Bonjour", "Coucou", "Yo", "Hey there", "Good morning", "Bonsoir","cc","salam"],
+      "responses": [
+        "Hello! I'm Michael, Islam Merzouk's personal assistant. How can I assist you today?",
+        "Bonjour! Je suis Michael, l'assistant personnel d'Islam Merzouk. Que puis-je faire pour vous?",
+        "Hey there! Michael here. How may I help regarding Islam Merzouk?"
+      ]
     },
     {
       "tag": "about_islam",
-      "patterns": ["Tell me about Islam Merzouk", "Parle-moi d'Islam Merzouk", "Who is Islam Merzouk?", "C'est qui Islam Merzouk?"],
+      "patterns": [
+        "Who is Islam Merzouk?", "Tell me about Islam Merzouk", "Parle-moi d'Islam Merzouk", "C'est qui Islam Merzouk?", "Can you describe Islam Merzouk?"
+       ],
       "responses": [
-        "Islam Merzouk is a dedicated computer science engineering student from Algeria, currently studying in Belgium at the University of Mons. He holds a Bachelor's degree in Computer Science from Algeria and has completed a Master 1 in Artificial Intelligence.",
-        "Islam Merzouk est un étudiant en ingénierie informatique originaire d'Algérie, actuellement en Belgique à l'Université de Mons. Il a obtenu une licence en informatique en Algérie et a complété un Master 1 en Intelligence Artificielle."
+        "Islam Merzouk is a passionate computer science engineering student from Algeria, currently studying at the University of Mons in Belgium. He specializes in artificial intelligence and innovative technology solutions.",
+        "Islam Merzouk est un étudiant algérien en ingénierie informatique à l'Université de Mons en Belgique. Il est passionné par l'intelligence artificielle et les innovations technologiques."
+      ]
+    },
+    {
+      "tag": "education",
+      "patterns": [
+        "What did he study?", "Parle de ses études", "What is his educational background?", "Quels diplômes a-t-il?", "Where did he study?"
+      ],
+      "responses": [
+        "Islam holds a Bachelor's degree in Computer Science from Algeria and completed a Master 1 in Artificial Intelligence at the University of Mons in Belgium.",
+        "Il a obtenu une licence en informatique en Algérie, et a poursuivi un Master 1 en Intelligence Artificielle à l’Université de Mons en Belgique."
+      ]
+    },
+    {
+      "tag": "skills",
+      "patterns": [
+        "What are his skills?", "Quelles sont ses compétences?", "What does he know?", "What can he do?", "Parle de ses connaissances techniques"
+      ],
+      "responses": [
+        "Islam is skilled in Python, JavaScript, Odoo framework, and machine learning. He also has experience with web development (HTML, CSS, Flask) and database management.",
+        "Il maîtrise Python, JavaScript, le framework Odoo, ainsi que le machine learning. Il a aussi de l’expérience en développement web et en gestion de bases de données."
       ]
     },
     {
       "tag": "ai_projects",
-      "patterns": ["What projects does he do?", "Quels sont ses projets?", "Talk about his AI projects", "Parle de ses projets IA"],
+      "patterns": [
+        "What AI projects has he done?", "Quels projets IA a-t-il réalisés?", "Give examples of his projects", "Parle de ses projets en intelligence artificielle"
+      ],
       "responses": [
-        "Islam enjoys creating intelligent models that help solve different problems. He focuses on AI-driven solutions and innovative applications.",
-        "Islam aime créer des modèles intelligents qui aident à résoudre différents problèmes. Il se concentre sur les solutions basées sur l'IA et les applications innovantes."
+        "Islam has developed several AI-based projects, such as an image recognition model, a recommendation system, and intelligent chatbots for business automation.",
+        "Il a développé plusieurs projets basés sur l’IA, tels qu’un modèle de reconnaissance d’images, un système de recommandation et des chatbots intelligents."
       ]
     },
     {
       "tag": "experience",
-      "patterns": ["Tell me about his experience", "Parle de son expérience", "What has he done professionally?", "Quels sont ses stages ou expériences?"],
+      "patterns": [
+        "What professional experience does he have?", "A-t-il fait des stages?", "What has he done professionally?", "Parle de son expérience professionnelle"
+      ],
       "responses": [
-        "Islam completed an internship where he developed a website for a dental clinic, gaining practical web development experience.",
-        "Islam a effectué un stage où il a réalisé un site web pour une clinique dentaire, acquérant une expérience pratique en développement web."
+        "He completed an internship developing a website for a dental clinic, where he gained solid web development experience and client communication skills.",
+        "Il a effectué un stage où il a développé un site web pour une clinique dentaire, acquérant une expérience précieuse en développement et communication client."
       ]
     },
     {
-      "tag": "sports",
-      "patterns": ["What sports does he like?", "Quels sports pratique-t-il?", "Talk about his sports", "Parle de ses sports"],
+      "tag": "languages",
+      "patterns": [
+        "What languages does he speak?", "Quelles langues parle-t-il?", "Does he speak English?", "Est-ce qu'il parle français?"
+      ],
       "responses": [
-        "He practices many sports, including kickboxing, street workout, volleyball, basketball, swimming, and has experience as a lifeguard in Algeria.",
-        "Il pratique de nombreux sports, comme le kickboxing, le street workout, le volley-ball, le basket-ball, la natation, et a été maître-nageur en Algérie."
+        "Islam speaks Arabic, French, and English fluently, which allows him to communicate easily in international environments.",
+        "Il parle couramment l’arabe, le français et l’anglais, ce qui lui permet de travailler dans un contexte international."
       ]
     },
     {
       "tag": "personality",
-      "patterns": ["Describe his personality", "Comment est-il?", "Tell me about his personality", "Décris sa personnalité"],
+      "patterns": [
+        "How would you describe his personality?", "Comment est-il?", "Quel est son caractère?", "Is he social?", "Décris sa personnalité"
+      ],
       "responses": [
-        "Islam is calm, dynamic, social, and friendly. He loves nature and has a balanced mix of focus and sociability.",
-        "Islam est calme, dynamique, sociable et aimable. Il aime la nature et combine concentration et sociabilité."
+        "Islam is calm, disciplined, and curious. He’s very sociable and enjoys teamwork as much as independent learning.",
+        "Islam est calme, discipliné et curieux. Il aime travailler en équipe mais sait aussi être autonome et concentré."
       ]
     },
     {
       "tag": "goals",
-      "patterns": ["What are his goals?", "Quels sont ses objectifs?", "Talk about his ambitions", "Parle de ses ambitions"],
+      "patterns": [
+        "What are his goals?", "Quels sont ses objectifs?", "What does he want to achieve?", "Quels sont ses rêves?"
+      ],
       "responses": [
-        "Islam aims to become an AI expert, develop innovative solutions, and have a real impact in the tech world.",
-        "Islam veut devenir un expert en IA, développer des solutions innovantes et avoir un impact réel dans le monde de la technologie."
+        "Islam aims to become an AI expert and contribute to developing intelligent, ethical technologies that make people's lives easier.",
+        "Il souhaite devenir un expert en intelligence artificielle et participer au développement de technologies intelligentes et éthiques."
       ]
     },
     {
-      "tag": "age_country",
-      "patterns": ["How old is he?", "Quel âge a-t-il?", "Where is he from?", "D'où vient-il?"],
+      "tag": "contact",
+      "patterns": [
+        "How can I contact him?", "Comment le contacter?", "What is his email?", "Peux-tu me donner ses coordonnées?"
+      ],
       "responses": [
-        "He is 21 years old, from Algeria, and currently studying in Mons, Belgium.",
-        "Il a 21 ans, est originaire d'Algérie et poursuit actuellement ses études à Mons en Belgique."
+        "You can reach Islam Merzouk by email at islam.merzouk@example.com or via LinkedIn: linkedin.com/in/islam-merzouk.",
+        "Vous pouvez contacter Islam Merzouk par e-mail à islam.merzouk@example.com ou sur LinkedIn : linkedin.com/in/islam-merzouk."
+      ]
+    },
+    {
+      "tag": "portfolio",
+      "patterns": [
+        "Where can I see his portfolio?", "Montre-moi son portfolio", "A-t-il un site web?", "Can I see his work online?"
+      ],
+      "responses": [
+        "You can visit his portfolio here: https://islammerzouk.com — it showcases his projects, experiences, and AI experiments.",
+        "Son portfolio est disponible ici : https://islammerzouk.com — vous y trouverez ses projets, expériences et travaux en IA."
       ]
     },
     {
       "tag": "thanks",
-      "patterns": ["Thanks", "Thank you", "Merci", "Merci beaucoup"],
-      "responses": ["You're welcome!", "De rien!"]
+      "patterns": ["Thanks", "Thank you", "Merci", "C’est gentil", "Thanks a lot"],
+      "responses": ["You're very welcome!", "De rien, avec plaisir!", "Happy to help!"]
     },
     {
       "tag": "goodbye",
-      "patterns": ["Bye", "Goodbye", "Au revoir", "Salut"],
-      "responses": ["Goodbye! Have a great day!", "Au revoir! Passez une excellente journée!"]
+      "patterns": ["Bye", "Goodbye", "See you", "Au revoir", "À bientôt"],
+      "responses": ["Goodbye! Have a great day!", "Au revoir! Passez une excellente journée!", "À bientôt!"]
     }
   ]
 }
